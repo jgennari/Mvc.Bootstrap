@@ -4,4 +4,9 @@
 
 ### Usage
 
-````test
+Forms
+
+    using(Html.BootstrapHorizontalForm(Url.Action("Action"), FormMethod.Post, new { id = "FormName" }))
+    {
+       ...
+    }
