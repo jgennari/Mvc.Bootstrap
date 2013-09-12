@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buttons.cs" />
-    <Compile Include="Fields.cs" />
-    <Compile Include="Forms.cs" />
-    <Compile Include="Icons.cs" />
-    <Compile Include="Modal.cs" />
+    <Compile Include="Classes\Buttons.cs" />
+    <Compile Include="Classes\Fields.cs" />
+    <Compile Include="Classes\Forms.cs" />
+    <Compile Include="Classes\Icons.cs" />
+    <Compile Include="Classes\Modal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
